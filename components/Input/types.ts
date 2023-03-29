@@ -1,3 +1,3 @@
-export interface InputProps extends React.HTMLAttributes<HTMLInputElement> {
+export interface InputProps extends React.HTMLProps<HTMLInputElement> {
   className?: string;
 }
